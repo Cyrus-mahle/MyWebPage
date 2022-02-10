@@ -1,0 +1,120 @@
+
+body{
+  background-image: url('pic.webp');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+button{ color:darkslategrey;
+        font-weight:200px ;
+        box-align: center;
+        border: 2px solid purple;
+        border-radius: 20px;
+        margin: auto;
+        align-content: center;
+}
+button:hover{
+  background-color:violet;
+  color: white;
+}
+h2{
+  color:honeydew;
+}
+h3{color:floralwhite;
+font-weight :300px;
+}
+iframe{
+  color:white;
+  background-color: gray;
+  font-weight: 100px;
+}
+.submit{
+  color:white;
+  font-weight: 350px;
+  border: 6px solid white;
+  padding: 15px;
+  width:350px;  
+  border-radius: 8px;
+  padding: 5px;
+  background-color:darkgray;
+}
+section{
+  color:honeydew;
+font-weight: 100;
+}
+ul {
+  border:solid black 3px;
+  display:block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:rgb(3, 73, 100);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  height: fit-content;
+  color: white;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+  background-color:rgb(3, 73, 100);
+  border-right: 2px solid grey;
+}
+
+li a:hover {
+  background-color: #111;
+}
+.about{
+  float: right;
+  background-color:darkcyan;
+}
+/****Drop down courses bar****/
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+marquee{
+  color:cyan;
+}
+
